@@ -85,3 +85,5 @@ https://peter-chang.medium.com/review-3-main-types-of-encryption-hash-symmetric-
 https://www.c-sharpcorner.com/article/encryption-and-decryption-using-a-symmetric-key-in-c-sharp/
 
 https://www.c-sharpcorner.com/article/implement-symmetric-and-asymmetric-cryptography-algorithms-with-c-sharp/
+
+https://stackoverflow.com/questions/27301557/if-you-can-decode-jwt-how-are-they-secure
