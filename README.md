@@ -22,3 +22,5 @@ Encryption is masking or hiding the data by changing the format so that it’s unr
 - Given knowledge of only the hash, it’s infeasible to create another string of data that will create the same hash 
 
 ## Token
+
+Tokenization is a process where one tries not to possess the data. It’s a proxy to sensitive information with equivalent non-sensitive information which is the token. In the case of merchants using credit card numbers, instead of encrypting the information one stores it and assigns a key. Just think of it as a vault.
