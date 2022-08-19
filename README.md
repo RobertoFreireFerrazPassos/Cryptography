@@ -51,7 +51,7 @@ Json Web Tokens are a stateless solution for authentication. So there is no need
 - The server then sends that JWT back to the client which will store it either in a cookie or in local storage.
 
 <p align="center">
-  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT2.PNG?raw=true">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT2.png?raw=true">
 </p>
 
 - So the server does in fact not know which user is actually logged in, but of course, the user knows that he's logged in because he has a valid Json Web Token which is a bit like a passport to access protected parts of the application.
@@ -59,7 +59,7 @@ Json Web Tokens are a stateless solution for authentication. So there is no need
 - All this communication must happen over https to prevent that anyone can get access to passwords or JWT
 
 <p align="center">
-  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT3.PNG?raw=true">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT3.png?raw=true">
 </p>
 
 - JWT has a header, a payload and a signature
@@ -67,7 +67,7 @@ Json Web Tokens are a stateless solution for authentication. So there is no need
 
 
 <p align="center">
-  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT4.PNG?raw=true">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT4.png?raw=true">
 </p>
 
 - The signature is created using the header, the payload, and the secret that is saved on the server.
@@ -75,7 +75,7 @@ Json Web Tokens are a stateless solution for authentication. So there is no need
 - If the test signature is the same as the original signature, then it means that the payload and the header have not been modified.
 
 <p align="center">
-  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT1.PNG?raw=true">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT1.png?raw=true">
 </p>
 
 ## References:
