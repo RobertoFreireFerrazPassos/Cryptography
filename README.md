@@ -40,3 +40,11 @@ Tokenization is a process where one tries not to possess the data. It’s a proxy 
 <p align="center">
   <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/Token.PNG?raw=true">
 </p>
+
+## References:
+
+https://peter-chang.medium.com/review-3-main-types-of-encryption-hash-symmetric-asymmetric-tutorial-example-understand-5e57c290324c
+
+https://www.c-sharpcorner.com/article/encryption-and-decryption-using-a-symmetric-key-in-c-sharp/
+
+https://www.c-sharpcorner.com/article/implement-symmetric-and-asymmetric-cryptography-algorithms-with-c-sharp/
