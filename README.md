@@ -41,6 +41,43 @@ Tokenization is a process where one tries not to possess the data. It’s a proxy 
   <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/Token.PNG?raw=true">
 </p>
 
+## JWT
+
+Json Web Tokens are a stateless solution for authentication. So there is no need to store any session state on the server
+
+- Assuming we already have a registered user in our database, the user will make a login request. 
+- If the user exists and if the password is correct, the application will generate a unique JWT
+- The token is created using a secret string that is stored on a server. 
+- The server then sends that JWT back to the client which will store it either in a cookie or in local storage.
+
+<p align="center">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT2.PNG?raw=true">
+</p>
+
+- So the server does in fact not know which user is actually logged in, but of course, the user knows that he's logged in because he has a valid Json Web Token which is a bit like a passport to access protected parts of the application.
+- Then, each time a user wants to access a protected route like his user profile data, for example. He sends his Json Web Token along with a request, so it's a bit like showing his passport to get access to that route.
+- All this communication must happen over https to prevent that anyone can get access to passwords or JWT
+
+<p align="center">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT3.PNG?raw=true">
+</p>
+
+- JWT has a header, a payload and a signature
+- Header and payload must not store any sensitive data
+
+
+<p align="center">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT4.PNG?raw=true">
+</p>
+
+- The signature is created using the header, the payload, and the secret that is saved on the server.
+- Once the JWT is received on the server in a protected route, the verification will take its header and payload, and together with the secret that is still saved on the server, it creates a test signature.
+- If the test signature is the same as the original signature, then it means that the payload and the header have not been modified.
+
+<p align="center">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/main/Img/JWT1.PNG?raw=true">
+</p>
+
 ## References:
 
 https://peter-chang.medium.com/review-3-main-types-of-encryption-hash-symmetric-asymmetric-tutorial-example-understand-5e57c290324c

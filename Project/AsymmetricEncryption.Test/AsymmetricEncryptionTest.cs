@@ -10,9 +10,6 @@ namespace AsymmetricEncryption.Test
         [Fact]
         public void MustEncryptAndDecrypt()
         {
-            //var publicKey = "b14ca5898a4e4133bbce2ea2315a1916";
-            //var privateKey = "83mfSuh9R13Xa5aFASDFfnm133e413bb";
-
             RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();
             
             string publicKey = rsa.ToXmlString(false); // false to get the public key   
