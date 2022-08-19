@@ -9,10 +9,18 @@ Encryption is masking or hiding the data by changing the format so that it’s unr
 - Encrypter, and decrypter — need access to the same key.
 - The tricky part is how to store the key and make it available only to the software that needs it.
 
+<p align="center">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/master/Img/SymmetricEncryption.PNG?raw=true">
+</p>
+
 ### Asymmetric encryption
 
 - Uses public and private keys to encrypt and decrypt data.
 - Either of the keys can be used to encrypt a message; the opposite key from the one used to encrypt the message is used for decryption.
+
+<p align="center">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/master/Img/AsymmetricEncryption.PNG?raw=true">
+</p>
 
 ## Hash 
 
@@ -20,6 +28,10 @@ Encryption is masking or hiding the data by changing the format so that it’s unr
 - The same input will always produce the same output
 - It’s impossible to reverse it back to the original data
 - Given knowledge of only the hash, it’s infeasible to create another string of data that will create the same hash 
+
+<p align="center">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Cryptography/blob/master/Img/Hashing.PNG?raw=true">
+</p>
 
 ## Token
 
